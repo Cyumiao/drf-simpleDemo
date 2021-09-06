@@ -14,12 +14,11 @@
 
 ##### 运行项目
 
-> git clone https://github.com/Cyumiao/drf-simpleDemo
-
-sudo pip3 install -Ur requirements.txt
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver 8889
+- git clone https://github.com/Cyumiao/drf-simpleDemo
+- sudo pip3 install -Ur requirements.txt
+- python3 manage.py makemigrations
+- python3 manage.py migrate
+- python3 manage.py runserver 8889
 
 ### 调试接口
 
