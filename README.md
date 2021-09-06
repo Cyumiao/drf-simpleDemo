@@ -14,6 +14,12 @@
 
 ##### 运行项目
 
+> git clone https://github.com/Cyumiao/drf-simpleDemo
+
+sudo pip3 install -Ur requirements.txt
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver 8889
 
 ### 调试接口
 
@@ -34,3 +40,6 @@
 | 获取某个文章Article   | GET  | http://127.0.0.1:8889/api/article/1  |
 | 更新某个文章Article   | PUT  | http://127.0.0.1:8889/api/article/1 |
 | 删除某个文章Article   | DELETE  | http://127.0.0.1:8889/api/article/1 |
+
+### 相关博客
+相关博客：[https://www.xinghuijin.com/detail/95](https://www.xinghuijin.com/detail/95 "点击查看")
